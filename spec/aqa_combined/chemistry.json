@@ -1,0 +1,673 @@
+{
+  "metadata": {
+    "exam_board": "AQA",
+    "qualification": "GCSE Combined Science: Trilogy",
+    "specification_code": "8464",
+    "subject": "Chemistry",
+    "version": "1.1",
+    "date": "04 October 2019",
+    "note": "Foundation tier content is also required for Higher Tier. Content marked as 'higher' is ONLY for Higher Tier students. Content marked as 'foundation' is for BOTH tiers."
+  },
+  "tier_explanation": {
+    "foundation": "Content that ALL students (both Foundation and Higher Tier) must know",
+    "higher": "Additional content ONLY for Higher Tier students (marked as 'HT only' in the specification)"
+  },
+  "topics": [
+    {
+      "section": "5.1",
+      "title": "Atomic structure and the periodic table",
+      "subsections": [
+        {
+          "id": "5.1.1.1",
+          "title": "Atoms, elements and compounds",
+          "foundation_content": [
+            {
+              "id": "chem.atom.definition",
+              "content": "All substances are made of atoms. An atom is the smallest part of an element that can exist.",
+              "tier": "foundation"
+            },
+            {
+              "id": "chem.element.symbol",
+              "content": "Atoms of each element are represented by a chemical symbol (e.g., O for oxygen, Na for sodium).",
+              "tier": "foundation"
+            },
+            {
+              "id": "chem.compound.definition",
+              "content": "Compounds are formed from elements by chemical reactions and contain two or more elements chemically combined in fixed proportions.",
+              "tier": "foundation"
+            },
+            {
+              "id": "chem.equation.word",
+              "content": "Chemical reactions can be represented by word equations.",
+              "tier": "foundation"
+            },
+            {
+              "id": "chem.equation.symbol",
+              "content": "Write formulae and balanced chemical equations for reactions in the specification.",
+              "tier": "foundation"
+            }
+          ],
+          "higher_content": [
+            {
+              "id": "chem.equation.half",
+              "content": "Write balanced half equations and ionic equations where appropriate.",
+              "tier": "higher"
+            }
+          ]
+        },
+        {
+          "id": "5.1.1.2",
+          "title": "Mixtures",
+          "foundation_content": [
+            {
+              "id": "chem.mixture.definition",
+              "content": "A mixture consists of two or more elements or compounds not chemically combined together.",
+              "tier": "foundation"
+            },
+            {
+              "id": "chem.mixture.separation",
+              "content": "Mixtures can be separated by physical processes: filtration, crystallisation, simple distillation, fractional distillation and chromatography.",
+              "tier": "foundation"
+            }
+          ],
+          "higher_content": []
+        },
+        {
+          "id": "5.1.1.3",
+          "title": "The development of the model of the atom",
+          "foundation_content": [
+            {
+              "id": "chem.atom.history.plumpudding",
+              "content": "The plum pudding model suggested the atom is a ball of positive charge with negative electrons embedded in it.",
+              "tier": "foundation"
+            },
+            {
+              "id": "chem.atom.history.nuclear",
+              "content": "The nuclear model shows mass concentrated at the centre (nucleus) which is positively charged, with electrons orbiting at specific distances.",
+              "tier": "foundation"
+            },
+            {
+              "id": "chem.atom.history.protons",
+              "content": "The positive charge of the nucleus is subdivided into protons, each with the same amount of positive charge.",
+              "tier": "foundation"
+            },
+            {
+              "id": "chem.atom.history.neutrons",
+              "content": "James Chadwick provided evidence for the existence of neutrons within the nucleus.",
+              "tier": "foundation"
+            }
+          ],
+          "higher_content": []
+        },
+        {
+          "id": "5.1.1.4",
+          "title": "Relative electrical charges of subatomic particles",
+          "foundation_content": [
+            {
+              "id": "chem.atom.proton.charge",
+              "content": "Protons have a relative charge of +1.",
+              "tier": "foundation"
+            },
+            {
+              "id": "chem.atom.neutron.charge",
+              "content": "Neutrons have a relative charge of 0.",
+              "tier": "foundation"
+            },
+            {
+              "id": "chem.atom.electron.charge",
+              "content": "Electrons have a relative charge of -1.",
+              "tier": "foundation"
+            },
+            {
+              "id": "chem.atom.neutral",
+              "content": "In an atom, the number of electrons equals the number of protons, so atoms have no overall electrical charge.",
+              "tier": "foundation"
+            },
+            {
+              "id": "chem.atom.atomicnumber",
+              "content": "The atomic number is the number of protons in an atom of an element.",
+              "tier": "foundation"
+            }
+          ],
+          "higher_content": []
+        },
+        {
+          "id": "5.1.1.5",
+          "title": "Size and mass of atoms",
+          "foundation_content": [
+            {
+              "id": "chem.atom.size",
+              "content": "Atoms have a radius of about 0.1 nm (1 x 10^-10 m).",
+              "tier": "foundation"
+            },
+            {
+              "id": "chem.nucleus.size",
+              "content": "The radius of a nucleus is less than 1/10,000 of the atom (about 1 x 10^-14 m).",
+              "tier": "foundation"
+            },
+            {
+              "id": "chem.atom.mass.location",
+              "content": "Almost all of the mass of an atom is in the nucleus.",
+              "tier": "foundation"
+            },
+            {
+              "id": "chem.particle.mass.proton",
+              "content": "Protons have a relative mass of 1.",
+              "tier": "foundation"
+            },
+            {
+              "id": "chem.particle.mass.neutron",
+              "content": "Neutrons have a relative mass of 1.",
+              "tier": "foundation"
+            },
+            {
+              "id": "chem.particle.mass.electron",
+              "content": "Electrons have a very small relative mass.",
+              "tier": "foundation"
+            },
+            {
+              "id": "chem.atom.massnumber",
+              "content": "The mass number is the sum of protons and neutrons in an atom.",
+              "tier": "foundation"
+            },
+            {
+              "id": "chem.isotope.definition",
+              "content": "Isotopes are atoms of the same element with different numbers of neutrons.",
+              "tier": "foundation"
+            },
+            {
+              "id": "chem.atom.calculation",
+              "content": "Calculate the numbers of protons, neutrons and electrons in an atom or ion, given its atomic number and mass number.",
+              "tier": "foundation"
+            }
+          ],
+          "higher_content": []
+        },
+        {
+          "id": "5.1.1.6",
+          "title": "Relative atomic mass",
+          "foundation_content": [
+            {
+              "id": "chem.ram.definition",
+              "content": "The relative atomic mass of an element is an average value that takes account of the abundance of the isotopes of the element.",
+              "tier": "foundation"
+            },
+            {
+              "id": "chem.ram.calculation",
+              "content": "Calculate the relative atomic mass of an element given the percentage abundance of its isotopes.",
+              "tier": "foundation"
+            }
+          ],
+          "higher_content": []
+        },
+        {
+          "id": "5.1.1.7",
+          "title": "Electronic structure",
+          "foundation_content": [
+            {
+              "id": "chem.electron.shells",
+              "content": "Electrons occupy the lowest available energy levels (innermost shells).",
+              "tier": "foundation"
+            },
+            {
+              "id": "chem.electron.representation",
+              "content": "Electronic structure can be represented by numbers (e.g., 2,8,1 for sodium) or diagrams.",
+              "tier": "foundation"
+            },
+            {
+              "id": "chem.electron.first20",
+              "content": "Represent the electronic structures of the first twenty elements of the periodic table.",
+              "tier": "foundation"
+            }
+          ],
+          "higher_content": []
+        }
+      ]
+    },
+    {
+      "section": "5.2",
+      "title": "Bonding, structure, and the properties of matter",
+      "note": "Full content would continue here - this is a partial example"
+    },
+    {
+      "section": "5.3",
+      "title": "Quantitative chemistry",
+      "subsections": [
+        {
+          "id": "5.3",
+          "title": "Conservation of mass and balanced equations",
+          "foundation_content": [
+            {
+              "id": "chem.mass.conservation",
+              "content": "The law of conservation of mass states that no atoms are lost or made during a chemical reaction.",
+              "tier": "foundation"
+            },
+            {
+              "id": "chem.mass.change",
+              "content": "The mass of products equals the mass of reactants.",
+              "tier": "foundation"
+            }
+          ],
+          "higher_content": [
+            {
+              "id": "chem.mass.calculation.limiting",
+              "content": "Calculate masses of reactants and products from balanced equations when given the mass of one substance (including limiting reactant scenarios).",
+              "tier": "higher"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "5.4",
+      "title": "Chemical changes",
+      "subsections": [
+        {
+          "id": "5.4.1",
+          "title": "Reactivity of metals",
+          "foundation_content": [
+            {
+              "id": "chem.metal.reactivity.series",
+              "content": "Metals can be arranged in order of reactivity in a reactivity series.",
+              "tier": "foundation"
+            },
+            {
+              "id": "chem.metal.displacement",
+              "content": "A more reactive metal can displace a less reactive metal from a compound.",
+              "tier": "foundation"
+            }
+          ],
+          "higher_content": [
+            {
+              "id": "chem.metal.extraction.reduction",
+              "content": "Explain how the method of extraction of a metal is related to its position in the reactivity series, including reduction with carbon.",
+              "tier": "higher"
+            }
+          ]
+        },
+        {
+          "id": "5.4.2",
+          "title": "Reactions of acids",
+          "foundation_content": [
+            {
+              "id": "chem.acid.definition",
+              "content": "Acids are substances that produce hydrogen ions (H+) in aqueous solution.",
+              "tier": "foundation"
+            },
+            {
+              "id": "chem.alkali.definition",
+              "content": "Alkalis are bases that dissolve in water to produce hydroxide ions (OH-).",
+              "tier": "foundation"
+            },
+            {
+              "id": "chem.neutralisation.basic",
+              "content": "Neutralisation reactions between acids and bases produce salt and water.",
+              "tier": "foundation"
+            },
+            {
+              "id": "chem.ph.scale",
+              "content": "The pH scale measures how acidic or alkaline a solution is (0-14).",
+              "tier": "foundation"
+            }
+          ],
+          "higher_content": [
+            {
+              "id": "chem.acid.strong.weak",
+              "content": "Distinguish between strong and weak acids in terms of degree of ionisation.",
+              "tier": "higher"
+            },
+            {
+              "id": "chem.ph.hydrogen.ion",
+              "content": "Explain that as pH decreases by one unit, the hydrogen ion concentration increases by a factor of 10.",
+              "tier": "higher"
+            }
+          ]
+        },
+        {
+          "id": "5.4.3",
+          "title": "Electrolysis",
+          "foundation_content": [
+            {
+              "id": "chem.electrolysis.definition",
+              "content": "Electrolysis is the decomposition of a compound using electricity.",
+              "tier": "foundation"
+            },
+            {
+              "id": "chem.electrolysis.ionic",
+              "content": "During electrolysis, ions move to the electrodes where they are discharged to produce elements.",
+              "tier": "foundation"
+            }
+          ],
+          "higher_content": [
+            {
+              "id": "chem.electrolysis.half.equations",
+              "content": "Write half equations for the reactions occurring at electrodes during electrolysis.",
+              "tier": "higher"
+            },
+            {
+              "id": "chem.electrolysis.product.prediction",
+              "content": "Predict the products of electrolysis of molten salts and aqueous solutions.",
+              "tier": "higher"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "5.5",
+      "title": "Energy changes",
+      "subsections": [
+        {
+          "id": "5.5.1",
+          "title": "Energy changes in reactions",
+          "foundation_content": [
+            {
+              "id": "chem.energy.exothermic",
+              "content": "An exothermic reaction transfers energy to the surroundings (temperature increase).",
+              "tier": "foundation"
+            },
+            {
+              "id": "chem.energy.endothermic",
+              "content": "An endothermic reaction takes in energy from the surroundings (temperature decrease).",
+              "tier": "foundation"
+            },
+            {
+              "id": "chem.energy.examples",
+              "content": "Examples of exothermic reactions include combustion, neutralisation, and oxidation. Examples of endothermic include thermal decomposition.",
+              "tier": "foundation"
+            }
+          ],
+          "higher_content": [
+            {
+              "id": "chem.energy.bond.energy",
+              "content": "Calculate energy changes in reactions using bond energies.",
+              "tier": "higher"
+            },
+            {
+              "id": "chem.energy.profile",
+              "content": "Draw and interpret reaction profiles showing activation energy and overall energy change.",
+              "tier": "higher"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "5.6",
+      "title": "The rate and extent of chemical change",
+      "subsections": [
+        {
+          "id": "5.6.1",
+          "title": "Rate of reaction",
+          "foundation_content": [
+            {
+              "id": "chem.rate.definition",
+              "content": "The rate of a chemical reaction measures how fast reactants are used up or products are formed.",
+              "tier": "foundation"
+            },
+            {
+              "id": "chem.rate.factors",
+              "content": "Factors affecting rate include: concentration, temperature, surface area, and catalysts.",
+              "tier": "foundation"
+            },
+            {
+              "id": "chem.rate.collision.theory.basic",
+              "content": "Chemical reactions occur when particles collide with sufficient energy.",
+              "tier": "foundation"
+            }
+          ],
+          "higher_content": [
+            {
+              "id": "chem.rate.calculation",
+              "content": "Calculate the mean rate of a reaction from given information about quantity of reactant used or product formed and time taken.",
+              "tier": "higher"
+            },
+            {
+              "id": "chem.rate.graph.tangent",
+              "content": "Calculate the rate of reaction at a specific time from a graph by drawing a tangent.",
+              "tier": "higher"
+            },
+            {
+              "id": "chem.rate.collision.theory.detailed",
+              "content": "Explain the effects of changes in conditions on rate in terms of particles colliding with sufficient energy (activation energy).",
+              "tier": "higher"
+            }
+          ]
+        },
+        {
+          "id": "5.6.2",
+          "title": "Reversible reactions and equilibrium",
+          "foundation_content": [
+            {
+              "id": "chem.reversible.definition",
+              "content": "In a reversible reaction, the products can react to form the original reactants.",
+              "tier": "foundation"
+            },
+            {
+              "id": "chem.equilibrium.basic",
+              "content": "In a closed system, a reversible reaction reaches equilibrium when the forward and reverse reactions occur at the same rate.",
+              "tier": "foundation"
+            }
+          ],
+          "higher_content": [
+            {
+              "id": "chem.equilibrium.lechatelier",
+              "content": "Predict the effect of changing conditions (concentration, temperature, pressure) on the position of equilibrium using Le Chatelier's principle.",
+              "tier": "higher"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "5.7",
+      "title": "Organic chemistry",
+      "subsections": [
+        {
+          "id": "5.7.1",
+          "title": "Hydrocarbons",
+          "foundation_content": [
+            {
+              "id": "chem.hydrocarbon.definition",
+              "content": "Hydrocarbons are compounds containing hydrogen and carbon only.",
+              "tier": "foundation"
+            },
+            {
+              "id": "chem.alkane.definition",
+              "content": "Alkanes are saturated hydrocarbons with the general formula CnH2n+2.",
+              "tier": "foundation"
+            },
+            {
+              "id": "chem.alkene.definition",
+              "content": "Alkenes are unsaturated hydrocarbons containing a C=C double bond.",
+              "tier": "foundation"
+            }
+          ],
+          "higher_content": []
+        }
+      ]
+    },
+    {
+      "section": "5.8",
+      "title": "Chemical analysis",
+      "subsections": [
+        {
+          "id": "5.8.1",
+          "title": "Purity and formulations",
+          "foundation_content": [
+            {
+              "id": "chem.pure.definition",
+              "content": "A pure substance consists of only one element or compound.",
+              "tier": "foundation"
+            },
+            {
+              "id": "chem.formulation.definition",
+              "content": "A formulation is a mixture designed to produce a useful product (e.g., paint, medicines).",
+              "tier": "foundation"
+            }
+          ],
+          "higher_content": []
+        },
+        {
+          "id": "5.8.2",
+          "title": "Chromatography",
+          "foundation_content": [
+            {
+              "id": "chem.chromatography.use",
+              "content": "Chromatography can be used to separate and identify mixtures.",
+              "tier": "foundation"
+            }
+          ],
+          "higher_content": [
+            {
+              "id": "chem.chromatography.rf",
+              "content": "Calculate Rf values and use them to identify substances: Rf = distance moved by substance / distance moved by solvent.",
+              "tier": "higher"
+            }
+          ]
+        },
+        {
+          "id": "5.8.3",
+          "title": "Identification of gases",
+          "foundation_content": [
+            {
+              "id": "chem.gas.test.hydrogen",
+              "content": "Test for hydrogen: burns with a squeaky pop.",
+              "tier": "foundation"
+            },
+            {
+              "id": "chem.gas.test.oxygen",
+              "content": "Test for oxygen: relights a glowing splint.",
+              "tier": "foundation"
+            },
+            {
+              "id": "chem.gas.test.co2",
+              "content": "Test for carbon dioxide: turns limewater milky/cloudy.",
+              "tier": "foundation"
+            },
+            {
+              "id": "chem.gas.test.chlorine",
+              "content": "Test for chlorine: bleaches damp litmus paper.",
+              "tier": "foundation"
+            }
+          ],
+          "higher_content": []
+        }
+      ]
+    },
+    {
+      "section": "5.9",
+      "title": "Chemistry of the atmosphere",
+      "subsections": [
+        {
+          "id": "5.9.1",
+          "title": "The composition and evolution of the Earth's atmosphere",
+          "foundation_content": [
+            {
+              "id": "chem.atmosphere.current",
+              "content": "The Earth's atmosphere today contains approximately 78% nitrogen, 21% oxygen, and small amounts of other gases including carbon dioxide, water vapour and noble gases.",
+              "tier": "foundation"
+            },
+            {
+              "id": "chem.atmosphere.early",
+              "content": "The Earth's early atmosphere was formed by volcanic activity and may have been similar to the atmospheres of Mars and Venus today (mainly carbon dioxide with little or no oxygen).",
+              "tier": "foundation"
+            }
+          ],
+          "higher_content": []
+        },
+        {
+          "id": "5.9.2",
+          "title": "Greenhouse gases",
+          "foundation_content": [
+            {
+              "id": "chem.greenhouse.definition",
+              "content": "Greenhouse gases in the atmosphere maintain temperatures on Earth high enough to support life.",
+              "tier": "foundation"
+            },
+            {
+              "id": "chem.greenhouse.examples",
+              "content": "Greenhouse gases include carbon dioxide, methane and water vapour.",
+              "tier": "foundation"
+            }
+          ],
+          "higher_content": []
+        }
+      ]
+    },
+    {
+      "section": "5.10",
+      "title": "Using resources",
+      "subsections": [
+        {
+          "id": "5.10.1",
+          "title": "Using the Earth's resources",
+          "foundation_content": [
+            {
+              "id": "chem.resources.natural",
+              "content": "Humans use resources from the Earth for warmth, shelter, food and transport.",
+              "tier": "foundation"
+            },
+            {
+              "id": "chem.resources.sustainable",
+              "content": "Sustainable development meets the needs of current generations without compromising future generations.",
+              "tier": "foundation"
+            }
+          ],
+          "higher_content": []
+        },
+        {
+          "id": "5.10.2",
+          "title": "Water treatment",
+          "foundation_content": [
+            {
+              "id": "chem.water.potable",
+              "content": "Potable water is water that is safe to drink (has acceptably low levels of dissolved salts and microbes).",
+              "tier": "foundation"
+            },
+            {
+              "id": "chem.water.treatment.steps",
+              "content": "Water treatment includes filtration, sedimentation and chlorination/UV treatment to kill microbes.",
+              "tier": "foundation"
+            }
+          ],
+          "higher_content": [
+            {
+              "id": "chem.water.desalination",
+              "content": "Describe and evaluate methods of desalination (distillation and reverse osmosis).",
+              "tier": "higher"
+            }
+          ]
+        },
+        {
+          "id": "5.10.3",
+          "title": "Life cycle assessment and recycling",
+          "foundation_content": [
+            {
+              "id": "chem.lca.definition",
+              "content": "Life cycle assessment (LCA) evaluates the environmental impact of a product through its lifetime.",
+              "tier": "foundation"
+            },
+            {
+              "id": "chem.recycling.importance",
+              "content": "Recycling conserves resources and reduces waste.",
+              "tier": "foundation"
+            }
+          ],
+          "higher_content": [
+            {
+              "id": "chem.lca.stages",
+              "content": "Carry out a life cycle assessment including: extraction of raw materials, manufacture, use, and disposal.",
+              "tier": "higher"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_foundation_concepts": "Content that forms the foundation for all students",
+    "total_higher_concepts": "Additional content only assessed for Higher Tier",
+    "key_principle": "ALL Foundation content is also required for Higher Tier students. Higher Tier content is ADDITIONAL and builds upon Foundation knowledge."
+  }
+}

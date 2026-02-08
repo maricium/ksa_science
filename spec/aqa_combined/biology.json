@@ -1,0 +1,1803 @@
+{
+    "metadata": {
+      "exam_board": "AQA",
+      "qualification": "GCSE Combined Science: Trilogy",
+      "specification_code": "8464",
+      "subject": "Biology",
+      "version": "1.1",
+      "date": "04 October 2019",
+      "note": "Foundation tier content is also required for Higher Tier. Content marked as 'higher' is ONLY for Higher Tier students. Content marked as 'foundation' is for BOTH tiers."
+    },
+    "tier_explanation": {
+      "foundation": "Content that ALL students (both Foundation and Higher Tier) must know",
+      "higher": "Additional content ONLY for Higher Tier students (marked as 'HT only' in the specification)"
+    },
+    "topics": [
+      {
+        "section": "4.1",
+        "title": "Cell biology",
+        "subsections": [
+          {
+            "id": "4.1.1.1",
+            "title": "Eukaryotes and prokaryotes",
+            "foundation_content": [
+              {
+                "id": "bio.cell.eukaryote",
+                "content": "Plant and animal cells (eukaryotic cells) have a cell membrane, cytoplasm and genetic material enclosed in a nucleus.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.cell.prokaryote",
+                "content": "Bacterial cells (prokaryotic cells) are much smaller and have cytoplasm, cell membrane, cell wall, and genetic material not enclosed in a nucleus.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.cell.plasmid",
+                "content": "Bacterial cells have a single DNA loop and may have one or more small rings of DNA called plasmids.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.cell.scale",
+                "content": "Understand the scale and size of cells, making order of magnitude calculations including standard form.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          },
+          {
+            "id": "4.1.1.2",
+            "title": "Animal and plant cells",
+            "foundation_content": [
+              {
+                "id": "bio.cell.animal.parts",
+                "content": "Animal cells have: nucleus, cytoplasm, cell membrane, mitochondria, and ribosomes.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.cell.plant.parts",
+                "content": "Plant cells have all animal cell parts plus: chloroplasts, permanent vacuole filled with cell sap, and a cell wall made of cellulose.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.cell.function",
+                "content": "Explain how sub-cellular structures (nucleus, cell membranes, mitochondria, chloroplasts, plasmids) relate to their functions.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.microscopy.observation",
+                "content": "Use a light microscope to observe, draw and label plant and animal cells with a magnification scale.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          },
+          {
+            "id": "4.1.1.3",
+            "title": "Cell specialisation",
+            "foundation_content": [
+              {
+                "id": "bio.cell.specialisation.animal",
+                "content": "Cells may be specialised to carry out particular functions: sperm cells, nerve cells, muscle cells in animals.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.cell.specialisation.plant",
+                "content": "Specialised plant cells include: root hair cells, xylem and phloem cells.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          },
+          {
+            "id": "4.1.1.4",
+            "title": "Cell differentiation",
+            "foundation_content": [
+              {
+                "id": "bio.cell.differentiation.importance",
+                "content": "Cell differentiation is when cells develop different sub-cellular structures to carry out specific functions.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.cell.differentiation.animal",
+                "content": "Most types of animal cells differentiate at an early stage.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.cell.differentiation.plant",
+                "content": "Many types of plant cells retain the ability to differentiate throughout life.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.cell.division.repair",
+                "content": "In mature animals, cell division is mainly restricted to repair and replacement.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          },
+          {
+            "id": "4.1.1.5",
+            "title": "Microscopy",
+            "foundation_content": [
+              {
+                "id": "bio.microscopy.development",
+                "content": "Understand how microscopy techniques have developed over time.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.microscopy.electron",
+                "content": "Electron microscope has much higher magnification and resolving power than a light microscope.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.microscopy.magnification",
+                "content": "Calculate magnification, real size and image size using: magnification = size of image / size of real object",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          },
+          {
+            "id": "4.1.2.1",
+            "title": "Chromosomes",
+            "foundation_content": [
+              {
+                "id": "bio.chromosome.definition",
+                "content": "The nucleus contains chromosomes made of DNA molecules. Each chromosome carries a large number of genes.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.chromosome.pairs",
+                "content": "In body cells, chromosomes are normally found in pairs.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          },
+          {
+            "id": "4.1.2.2",
+            "title": "Mitosis and the cell cycle",
+            "foundation_content": [
+              {
+                "id": "bio.mitosis.cellcycle",
+                "content": "Cells divide in a series of stages called the cell cycle.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.mitosis.process",
+                "content": "During the cell cycle: genetic material is doubled, DNA replicates to form two copies of each chromosome, one set is pulled to each end, nucleus divides, then cytoplasm and cell membranes divide to form two identical cells.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.mitosis.importance",
+                "content": "Cell division by mitosis is important in growth and development of multicellular organisms.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          },
+          {
+            "id": "4.1.2.3",
+            "title": "Stem cells",
+            "foundation_content": [
+              {
+                "id": "bio.stemcell.definition",
+                "content": "A stem cell is an undifferentiated cell capable of giving rise to many more cells of the same type, from which certain other cells can arise from differentiation.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.stemcell.embryo",
+                "content": "Stem cells from human embryos can be cloned and made to differentiate into most different types of human cells.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.stemcell.adult",
+                "content": "Stem cells from adult bone marrow can form many types of cells including blood cells.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.stemcell.plant.meristem",
+                "content": "Meristem tissue in plants can differentiate into any type of plant cell throughout the life of the plant.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.stemcell.medical",
+                "content": "Treatment with stem cells may help conditions such as diabetes and paralysis.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.stemcell.therapeutic.cloning",
+                "content": "In therapeutic cloning, an embryo is produced with the same genes as the patient so stem cells are not rejected.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.stemcell.risks",
+                "content": "Use of stem cells has potential risks such as viral infection transfer, and ethical/religious objections.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.stemcell.plant.uses",
+                "content": "Plant stem cells can clone rare species or crop plants with special features like disease resistance.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          },
+          {
+            "id": "4.1.3.1",
+            "title": "Diffusion",
+            "foundation_content": [
+              {
+                "id": "bio.diffusion.definition",
+                "content": "Diffusion is the spreading out of particles resulting in net movement from higher to lower concentration.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.diffusion.examples",
+                "content": "Substances transported by diffusion include: oxygen and carbon dioxide in gas exchange, and urea from cells to blood plasma.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.diffusion.factors",
+                "content": "Factors affecting rate of diffusion: concentration gradient, temperature, and surface area of membrane.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.diffusion.singlecell",
+                "content": "Single-celled organisms have a relatively large surface area to volume ratio allowing sufficient transport of molecules.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.diffusion.multicellular",
+                "content": "Multicellular organisms need exchange surfaces and transport systems due to small surface area to volume ratio.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.exchange.surface.features",
+                "content": "Effective exchange surfaces have: large surface area, thin membrane, efficient blood supply (animals), and ventilation (for gases).",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          },
+          {
+            "id": "4.1.3.2",
+            "title": "Osmosis",
+            "foundation_content": [
+              {
+                "id": "bio.osmosis.definition",
+                "content": "Osmosis is the diffusion of water from a dilute solution to a concentrated solution through a partially permeable membrane.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.osmosis.calculation",
+                "content": "Calculate percentage gain and loss of mass of plant tissue in osmosis investigations.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          },
+          {
+            "id": "4.1.3.3",
+            "title": "Active transport",
+            "foundation_content": [
+              {
+                "id": "bio.activetransport.definition",
+                "content": "Active transport moves substances from more dilute to more concentrated solution (against concentration gradient) requiring energy from respiration.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.activetransport.plants",
+                "content": "Active transport allows mineral ions to be absorbed into plant root hairs from dilute solutions in soil.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.activetransport.gut",
+                "content": "Active transport allows sugar molecules to be absorbed from lower concentrations in gut into blood.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          }
+        ]
+      },
+      {
+        "section": "4.2",
+        "title": "Organisation",
+        "subsections": [
+          {
+            "id": "4.2.1",
+            "title": "Principles of organisation",
+            "foundation_content": [
+              {
+                "id": "bio.organisation.levels",
+                "content": "Cells → Tissues (group of similar cells) → Organs (aggregation of tissues) → Organ systems → Organisms",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          },
+          {
+            "id": "4.2.2.1",
+            "title": "The human digestive system",
+            "foundation_content": [
+              {
+                "id": "bio.digestion.system",
+                "content": "The digestive system is an organ system where several organs work together to digest and absorb food.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.enzyme.function",
+                "content": "Enzymes catalyse specific reactions in living organisms due to the shape of their active site.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.enzyme.lockandkey",
+                "content": "Use the 'lock and key theory' as a simplified model to explain enzyme action.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.enzyme.carbohydrase",
+                "content": "Carbohydrases break down carbohydrates to simple sugars. Amylase breaks down starch.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.enzyme.protease",
+                "content": "Proteases break down proteins to amino acids.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.enzyme.lipase",
+                "content": "Lipases break down lipids (fats) to glycerol and fatty acids.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.digestion.products",
+                "content": "Products of digestion are used to build new carbohydrates, lipids and proteins. Some glucose is used in respiration.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.bile.function",
+                "content": "Bile (made in liver, stored in gall bladder) is alkaline to neutralise stomach acid and emulsifies fat increasing surface area for lipase.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          },
+          {
+            "id": "4.2.2.2",
+            "title": "The heart and blood vessels",
+            "foundation_content": [
+              {
+                "id": "bio.heart.function",
+                "content": "The heart pumps blood around the body in a double circulatory system.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.heart.ventricles",
+                "content": "Right ventricle pumps blood to lungs for gas exchange. Left ventricle pumps blood around the rest of the body.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.heart.vessels",
+                "content": "Blood vessels associated with heart: aorta, vena cava, pulmonary artery, pulmonary vein, coronary arteries.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.lung.structure",
+                "content": "Lung structure: trachea, bronchi, alveoli and capillary network surrounding alveoli.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.heart.pacemaker",
+                "content": "Natural resting heart rate is controlled by a group of cells in the right atrium (pacemaker). Artificial pacemakers correct irregularities.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.bloodvessel.types",
+                "content": "Three types of blood vessel: arteries, veins, and capillaries. Structure relates to function.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          },
+          {
+            "id": "4.2.2.3",
+            "title": "Blood",
+            "foundation_content": [
+              {
+                "id": "bio.blood.composition",
+                "content": "Blood is a tissue consisting of plasma, in which red blood cells, white blood cells and platelets are suspended.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.blood.functions",
+                "content": "Know the functions of each blood component and how they are adapted to their functions.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          },
+          {
+            "id": "4.2.2.4",
+            "title": "Coronary heart disease",
+            "foundation_content": [
+              {
+                "id": "bio.chd.definition",
+                "content": "In coronary heart disease, layers of fatty material build up inside coronary arteries, narrowing them and reducing blood flow, causing lack of oxygen for heart muscle.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.chd.stents",
+                "content": "Stents are used to keep coronary arteries open.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.chd.statins",
+                "content": "Statins reduce blood cholesterol levels which slows fatty material deposit.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.heartvalve.faulty",
+                "content": "Faulty heart valves can be replaced using biological or mechanical valves.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.heart.transplant",
+                "content": "In heart failure, a donor heart or heart and lungs can be transplanted. Artificial hearts are occasionally used temporarily.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          },
+          {
+            "id": "4.2.2.5",
+            "title": "Health issues",
+            "foundation_content": [
+              {
+                "id": "bio.health.definition",
+                "content": "Health is the state of physical and mental well-being.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.disease.types",
+                "content": "Communicable and non-communicable diseases are major causes of ill health. Diet, stress and life situations affect physical and mental health.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.disease.interaction",
+                "content": "Different types of disease may interact: immune system defects increase infectious disease risk; viruses can trigger cancers; pathogens can trigger allergies; severe physical ill health can cause mental illness.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          },
+          {
+            "id": "4.2.2.6",
+            "title": "The effect of lifestyle on non-communicable diseases",
+            "foundation_content": [
+              {
+                "id": "bio.riskfactor.definition",
+                "content": "Risk factors are linked to increased rate of disease. They can be lifestyle aspects, substances in the body or environment.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.riskfactor.cardiovascular",
+                "content": "Effects of diet, smoking and exercise on cardiovascular disease.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.riskfactor.diabetes",
+                "content": "Obesity as a risk factor for Type 2 diabetes.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.riskfactor.alcohol",
+                "content": "Effect of alcohol on liver and brain function.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.riskfactor.smoking.lung",
+                "content": "Effect of smoking on lung disease and lung cancer.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.riskfactor.unborn",
+                "content": "Effects of smoking and alcohol on unborn babies.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.riskfactor.carcinogens",
+                "content": "Carcinogens, including ionising radiation, as risk factors in cancer.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          },
+          {
+            "id": "4.2.2.7",
+            "title": "Cancer",
+            "foundation_content": [
+              {
+                "id": "bio.cancer.definition",
+                "content": "Cancer is the result of changes in cells that lead to uncontrolled growth and division.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.tumour.benign",
+                "content": "Benign tumours are growths of abnormal cells contained in one area, usually within a membrane. They do not invade other parts.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.tumour.malignant",
+                "content": "Malignant tumour cells are cancers. They invade neighbouring tissues and spread in blood where they form secondary tumours.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.cancer.riskfactors",
+                "content": "Scientists have identified lifestyle and genetic risk factors for various types of cancer.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          },
+          {
+            "id": "4.2.3.1",
+            "title": "Plant tissues",
+            "foundation_content": [
+              {
+                "id": "bio.plant.tissues",
+                "content": "Plant tissues include: epidermal tissues, palisade mesophyll, spongy mesophyll, xylem and phloem, and meristem tissue at growing tips.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.leaf.structure",
+                "content": "The leaf is a plant organ containing: epidermis, palisade and spongy mesophyll, xylem and phloem, and guard cells surrounding stomata.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          },
+          {
+            "id": "4.2.3.2",
+            "title": "Plant organ system",
+            "foundation_content": [
+              {
+                "id": "bio.plant.transport.system",
+                "content": "Roots, stem and leaves form a plant organ system for transport of substances around the plant.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.transpiration.definition",
+                "content": "Describe the process of transpiration and translocation, including structure and function of stomata.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.roothair.adaptation",
+                "content": "Root hair cells are adapted for efficient uptake of water by osmosis and mineral ions by active transport.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.xylem.function",
+                "content": "Xylem tissue transports water and mineral ions from roots to stems and leaves. Composed of hollow tubes strengthened by lignin.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.stomata.function",
+                "content": "Stomata and guard cells control gas exchange and water loss.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.phloem.function",
+                "content": "Phloem tissue transports dissolved sugars from leaves to rest of plant. Movement through phloem is called translocation.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.transpiration.factors",
+                "content": "Explain the effect of changing temperature, humidity, air movement and light intensity on rate of transpiration.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          }
+        ]
+      },
+      {
+        "section": "4.3",
+        "title": "Infection and response",
+        "subsections": [
+          {
+            "id": "4.3.1.1",
+            "title": "Communicable diseases",
+            "foundation_content": [
+              {
+                "id": "bio.pathogen.definition",
+                "content": "Pathogens are microorganisms that cause infectious disease. They may be viruses, bacteria, protists or fungi.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.pathogen.spread",
+                "content": "Pathogens can be spread by direct contact, by water or by air.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.bacteria.reproduction",
+                "content": "Bacteria and viruses may reproduce rapidly inside the body. Bacteria may produce toxins that damage tissues.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.virus.reproduction",
+                "content": "Viruses live and reproduce inside cells, causing cell damage.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          },
+          {
+            "id": "4.3.1.2",
+            "title": "Viral diseases",
+            "foundation_content": [
+              {
+                "id": "bio.measles",
+                "content": "Measles is a viral disease with fever and red skin rash. Can be fatal if complications arise. Most young children are vaccinated. Spread by inhalation of droplets from sneezes and coughs.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.hiv",
+                "content": "HIV initially causes flu-like illness. Unless controlled with antiretroviral drugs, it attacks immune cells. Late stage HIV (AIDS) occurs when immune system is badly damaged. Spread by sexual contact or exchange of body fluids.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.tmv",
+                "content": "Tobacco mosaic virus (TMV) is a plant pathogen giving a 'mosaic' pattern of discolouration on leaves, affecting growth due to lack of photosynthesis.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          },
+          {
+            "id": "4.3.1.3",
+            "title": "Bacterial diseases",
+            "foundation_content": [
+              {
+                "id": "bio.salmonella",
+                "content": "Salmonella food poisoning is spread by bacteria in food. In UK, poultry are vaccinated. Causes fever, cramps, vomiting and diarrhoea.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.gonorrhoea",
+                "content": "Gonorrhoea is an STD with thick yellow/green discharge and pain on urinating. Caused by bacterium, was treated with penicillin until resistant strains appeared. Controlled by antibiotics or barrier contraception.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          },
+          {
+            "id": "4.3.1.4",
+            "title": "Fungal diseases",
+            "foundation_content": [
+              {
+                "id": "bio.roseblackspot",
+                "content": "Rose black spot is a fungal disease with purple/black spots on leaves, which turn yellow and drop early. Reduces photosynthesis. Spread by water or wind. Treated by fungicides or removing affected leaves.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          },
+          {
+            "id": "4.3.1.5",
+            "title": "Protist diseases",
+            "foundation_content": [
+              {
+                "id": "bio.malaria",
+                "content": "Malaria is caused by a protist. The malarial protist has a life cycle including the mosquito. Causes recurrent fever and can be fatal. Controlled by preventing mosquitos breeding and using mosquito nets.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          },
+          {
+            "id": "4.3.1.6",
+            "title": "Human defence systems",
+            "foundation_content": [
+              {
+                "id": "bio.defence.nonspecific",
+                "content": "Non-specific defence systems against pathogens include: skin, nose, trachea and bronchi, and stomach.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.immunesystem.role",
+                "content": "If a pathogen enters the body, the immune system tries to destroy it.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.whitebloodcell.functions",
+                "content": "White blood cells defend against pathogens by: phagocytosis, antibody production, and antitoxin production.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          },
+          {
+            "id": "4.3.1.7",
+            "title": "Vaccination",
+            "foundation_content": [
+              {
+                "id": "bio.vaccination.process",
+                "content": "Vaccination involves introducing small quantities of dead or inactive forms of pathogen to stimulate white blood cells to produce antibodies.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.vaccination.immunity",
+                "content": "If the same pathogen re-enters the body, white blood cells respond quickly to produce correct antibodies, preventing infection.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          },
+          {
+            "id": "4.3.1.8",
+            "title": "Antibiotics and painkillers",
+            "foundation_content": [
+              {
+                "id": "bio.antibiotic.definition",
+                "content": "Antibiotics (such as penicillin) are medicines that cure bacterial disease by killing infective bacteria inside the body.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.antibiotic.resistance",
+                "content": "Antibiotics have greatly reduced deaths from bacterial diseases, but emergence of resistant strains is of great concern.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.antibiotic.virus",
+                "content": "Antibiotics cannot kill viral pathogens.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.painkiller.function",
+                "content": "Painkillers and other medicines treat symptoms of disease but do not kill pathogens.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          },
+          {
+            "id": "4.3.1.9",
+            "title": "Discovery and development of drugs",
+            "foundation_content": [
+              {
+                "id": "bio.drug.traditional",
+                "content": "Traditionally drugs were extracted from plants and microorganisms: digitalis from foxgloves, aspirin from willow, penicillin from Penicillium mould.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.drug.testing",
+                "content": "New drugs are extensively tested for toxicity, efficacy and dose.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.drug.preclinical",
+                "content": "Preclinical testing is done in laboratory using cells, tissues and live animals.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.drug.clinical",
+                "content": "Clinical trials use healthy volunteers and patients. Very low doses given at start. If safe, further trials find optimum dose. In double blind trials, some patients given placebo.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          }
+        ]
+      },
+      {
+        "section": "4.4",
+        "title": "Bioenergetics",
+        "subsections": [
+          {
+            "id": "4.4.1.1",
+            "title": "Photosynthetic reaction",
+            "foundation_content": [
+              {
+                "id": "bio.photosynthesis.equation",
+                "content": "Photosynthesis: carbon dioxide + water → glucose + oxygen. Recognise symbols: CO2, H2O, O2, C6H12O6.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.photosynthesis.endothermic",
+                "content": "Photosynthesis is an endothermic reaction where energy is transferred from environment to chloroplasts by light.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          },
+          {
+            "id": "4.4.1.2",
+            "title": "Rate of photosynthesis",
+            "foundation_content": [
+              {
+                "id": "bio.photosynthesis.factors",
+                "content": "Explain effects of temperature, light intensity, carbon dioxide concentration, and amount of chlorophyll on rate of photosynthesis.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.photosynthesis.calculate",
+                "content": "Measure and calculate rates of photosynthesis. Interpret graphs involving one limiting factor.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": [
+              {
+                "id": "bio.photosynthesis.limitingfactors",
+                "content": "These factors interact and any one may be the limiting factor. Explain graphs involving two or three factors and decide which is limiting.",
+                "tier": "higher"
+              },
+              {
+                "id": "bio.photosynthesis.inversesquare",
+                "content": "Understand and use inverse proportion – the inverse square law and light intensity in photosynthesis.",
+                "tier": "higher"
+              },
+              {
+                "id": "bio.photosynthesis.greenhouse",
+                "content": "Limiting factors are important in economics of enhancing greenhouse conditions to gain maximum rate while maintaining profit.",
+                "tier": "higher"
+              }
+            ]
+          },
+          {
+            "id": "4.4.1.3",
+            "title": "Uses of glucose from photosynthesis",
+            "foundation_content": [
+              {
+                "id": "bio.glucose.uses",
+                "content": "Glucose from photosynthesis may be: used for respiration, converted to insoluble starch for storage, used to produce fat/oil for storage, used to produce cellulose for cell walls, used to produce amino acids for protein synthesis.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.glucose.nitrate",
+                "content": "To produce proteins, plants use nitrate ions absorbed from the soil.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          },
+          {
+            "id": "4.4.2.1",
+            "title": "Aerobic and anaerobic respiration",
+            "foundation_content": [
+              {
+                "id": "bio.respiration.exothermic",
+                "content": "Cellular respiration is an exothermic reaction continuously occurring in living cells. Energy transferred supplies all energy needed for living processes.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.respiration.energy.uses",
+                "content": "Organisms need energy for: chemical reactions to build larger molecules, movement, and keeping warm.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.respiration.aerobic.equation",
+                "content": "Aerobic respiration: glucose + oxygen → carbon dioxide + water. Recognise symbols: C6H12O6, O2, CO2, H2O.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.respiration.anaerobic.muscle",
+                "content": "Anaerobic respiration in muscles: glucose → lactic acid. Incomplete oxidation means much less energy transferred than aerobic.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.respiration.anaerobic.yeast",
+                "content": "Anaerobic respiration in plant and yeast cells: glucose → ethanol + carbon dioxide. In yeast this is called fermentation, important in bread and alcoholic drinks.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          },
+          {
+            "id": "4.4.2.2",
+            "title": "Response to exercise",
+            "foundation_content": [
+              {
+                "id": "bio.exercise.response",
+                "content": "During exercise, heart rate, breathing rate and breath volume increase to supply muscles with more oxygenated blood.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.exercise.anaerobic",
+                "content": "If insufficient oxygen supplied, anaerobic respiration occurs in muscles. Incomplete oxidation causes lactic acid build-up and creates oxygen debt. Muscles become fatigued and stop contracting efficiently.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": [
+              {
+                "id": "bio.exercise.oxygendebt",
+                "content": "Blood flowing through muscles transports lactic acid to liver where it's converted back to glucose. Oxygen debt is the amount of extra oxygen the body needs after exercise to react with accumulated lactic acid and remove it from cells.",
+                "tier": "higher"
+              }
+            ]
+          },
+          {
+            "id": "4.4.2.3",
+            "title": "Metabolism",
+            "foundation_content": [
+              {
+                "id": "bio.metabolism.definition",
+                "content": "Metabolism is the sum of all reactions in a cell or the body.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.metabolism.examples",
+                "content": "Metabolism includes: conversion of glucose to starch/glycogen/cellulose, formation of lipids from glycerol and fatty acids, use of glucose and nitrate ions to form amino acids for protein synthesis, respiration, and breakdown of excess proteins to form urea for excretion.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          }
+        ]
+      },
+      {
+        "section": "4.5",
+        "title": "Homeostasis and response",
+        "subsections": [
+          {
+            "id": "4.5.1",
+            "title": "Homeostasis",
+            "foundation_content": [
+              {
+                "id": "bio.homeostasis.definition",
+                "content": "Homeostasis is the regulation of internal conditions of a cell or organism to maintain optimum conditions for function in response to internal and external changes.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.homeostasis.maintains",
+                "content": "Homeostasis maintains optimal conditions for enzyme action and all cell functions.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.homeostasis.controls",
+                "content": "In humans, homeostasis controls: blood glucose concentration, body temperature, and water levels.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.homeostasis.components",
+                "content": "All control systems include: receptors (detect stimuli), coordination centres (brain, spinal cord, pancreas - receive and process information), and effectors (muscles or glands - bring about responses).",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          },
+          {
+            "id": "4.5.2",
+            "title": "The human nervous system",
+            "foundation_content": [
+              {
+                "id": "bio.nervoussystem.function",
+                "content": "The nervous system enables humans to react to surroundings and coordinate behaviour.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.nervoussystem.pathway",
+                "content": "Information from receptors passes along neurones as electrical impulses to CNS (brain and spinal cord). CNS coordinates response of effectors (muscles or glands).",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.nervoussystem.sequence",
+                "content": "Stimulus → receptor → coordinator → effector → response",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.reflex.arc",
+                "content": "Explain how structures in reflex arc (sensory neurone, synapse, relay neurone, motor neurone) relate to function.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.reflex.importance",
+                "content": "Reflex actions are automatic and rapid; they do not involve the conscious part of the brain.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          },
+          {
+            "id": "4.5.3.1",
+            "title": "Human endocrine system",
+            "foundation_content": [
+              {
+                "id": "bio.endocrine.definition",
+                "content": "The endocrine system is composed of glands which secrete hormones directly into bloodstream. Blood carries hormone to target organ where it produces an effect.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.endocrine.comparison",
+                "content": "Compared to nervous system, endocrine effects are slower but act for longer.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.pituitary.function",
+                "content": "Pituitary gland in brain is a 'master gland' which secretes several hormones in response to body conditions. These act on other glands to stimulate other hormones.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.endocrine.glands",
+                "content": "Identify position of: pituitary gland, pancreas, thyroid, adrenal gland, ovary, and testes.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          },
+          {
+            "id": "4.5.3.2",
+            "title": "Control of blood glucose concentration",
+            "foundation_content": [
+              {
+                "id": "bio.bloodglucose.pancreas",
+                "content": "Blood glucose concentration is monitored and controlled by the pancreas.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.insulin.function",
+                "content": "If blood glucose too high, pancreas produces insulin causing glucose to move from blood into cells. In liver and muscle cells excess glucose is converted to glycogen for storage.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.diabetes.type1",
+                "content": "Type 1 diabetes: pancreas fails to produce sufficient insulin. Characterised by uncontrolled high blood glucose. Normally treated with insulin injections.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.diabetes.type2",
+                "content": "Type 2 diabetes: body cells no longer respond to insulin. Treated with carbohydrate controlled diet and exercise. Obesity is a risk factor.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": [
+              {
+                "id": "bio.glucagon.function",
+                "content": "If blood glucose too low, pancreas produces glucagon causing glycogen to be converted into glucose and released into blood.",
+                "tier": "higher"
+              },
+              {
+                "id": "bio.bloodglucose.negativefeedback",
+                "content": "Explain how glucagon interacts with insulin in a negative feedback cycle to control blood glucose levels.",
+                "tier": "higher"
+              }
+            ]
+          },
+          {
+            "id": "4.5.3.3",
+            "title": "Hormones in human reproduction",
+            "foundation_content": [
+              {
+                "id": "bio.puberty.hormones",
+                "content": "During puberty, reproductive hormones cause secondary sex characteristics to develop.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.oestrogen.function",
+                "content": "Oestrogen is the main female reproductive hormone produced in ovary. At puberty eggs begin to mature and one is released approximately every 28 days (ovulation).",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.testosterone.function",
+                "content": "Testosterone is the main male reproductive hormone produced by testes and stimulates sperm production.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.menstrualcycle.hormones",
+                "content": "Several hormones involved in menstrual cycle: FSH causes maturation of egg in ovary; LH stimulates release of egg; Oestrogen and progesterone maintain uterus lining.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": [
+              {
+                "id": "bio.menstrualcycle.interactions",
+                "content": "Explain the interactions of FSH, oestrogen, LH and progesterone in control of menstrual cycle.",
+                "tier": "higher"
+              }
+            ]
+          },
+          {
+            "id": "4.5.3.4",
+            "title": "Contraception",
+            "foundation_content": [
+              {
+                "id": "bio.contraception.hormonal",
+                "content": "Hormonal contraception: oral contraceptives contain hormones to inhibit FSH so no eggs mature; injections/implants/patches of slow release progesterone inhibit maturation and release of eggs.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.contraception.nonhormonal",
+                "content": "Non-hormonal contraception: barrier methods (condoms, diaphragms), intrauterine devices, spermicidal agents, abstaining when egg in oviduct, surgical sterilisation.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          },
+          {
+            "id": "4.5.3.5",
+            "title": "The use of hormones to treat infertility",
+            "foundation_content": [],
+            "higher_content": [
+              {
+                "id": "bio.infertility.fertilitydrug",
+                "content": "Give FSH and LH in a 'fertility drug' to a woman. She may then become pregnant in normal way.",
+                "tier": "higher"
+              },
+              {
+                "id": "bio.ivf.process",
+                "content": "IVF treatment: give mother FSH and LH to stimulate maturation of several eggs; collect eggs and fertilise with sperm in laboratory; fertilised eggs develop into embryos; insert one or two embryos into mother's uterus.",
+                "tier": "higher"
+              },
+              {
+                "id": "bio.ivf.issues",
+                "content": "Fertility treatment gives chance to have baby but: is emotionally and physically stressful, success rates not high, can lead to multiple births which risk babies and mother.",
+                "tier": "higher"
+              }
+            ]
+          },
+          {
+            "id": "4.5.3.6",
+            "title": "Feedback systems",
+            "foundation_content": [],
+            "higher_content": [
+              {
+                "id": "bio.adrenaline.function",
+                "content": "Adrenaline is produced by adrenal glands in times of fear or stress. Increases heart rate and boosts delivery of oxygen and glucose to brain and muscles, preparing body for 'flight or fight'.",
+                "tier": "higher"
+              },
+              {
+                "id": "bio.thyroxine.function",
+                "content": "Thyroxine from thyroid gland stimulates basal metabolic rate. Plays important role in growth and development. Levels controlled by negative feedback.",
+                "tier": "higher"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "section": "4.6",
+        "title": "Inheritance, variation and evolution",
+        "subsections": [
+          {
+            "id": "4.6.1.1",
+            "title": "Sexual and asexual reproduction",
+            "foundation_content": [
+              {
+                "id": "bio.reproduction.meiosis.mitosis",
+                "content": "Meiosis leads to non-identical cells being formed while mitosis leads to identical cells being formed.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.reproduction.sexual",
+                "content": "Sexual reproduction involves joining (fusion) of male and female gametes: sperm and egg in animals, pollen and egg in flowering plants. Mixing of genetic information leads to variety in offspring. Formation of gametes involves meiosis.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.reproduction.asexual",
+                "content": "Asexual reproduction involves only one parent and no fusion of gametes. No mixing of genetic information leads to genetically identical offspring (clones). Only mitosis is involved.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          },
+          {
+            "id": "4.6.1.2",
+            "title": "Meiosis",
+            "foundation_content": [
+              {
+                "id": "bio.meiosis.process",
+                "content": "Explain how meiosis halves the number of chromosomes in gametes and fertilisation restores the full number.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.meiosis.steps",
+                "content": "When a cell divides to form gametes: copies of genetic information are made, cell divides twice to form four gametes each with single set of chromosomes, all gametes are genetically different from each other.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.fertilisation",
+                "content": "Gametes join at fertilisation to restore normal number of chromosomes. The new cell divides by mitosis. Number of cells increases. As embryo develops cells differentiate.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          },
+          {
+            "id": "4.6.1.3",
+            "title": "DNA and the genome",
+            "foundation_content": [
+              {
+                "id": "bio.dna.structure",
+                "content": "Genetic material in nucleus is DNA. DNA is a polymer made of two strands forming a double helix. DNA is contained in structures called chromosomes.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.gene.definition",
+                "content": "A gene is a small section of DNA on a chromosome. Each gene codes for a particular sequence of amino acids to make a specific protein.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.genome.definition",
+                "content": "The genome of an organism is the entire genetic material of that organism.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.genome.importance",
+                "content": "Understanding human genome is important for: search for genes linked to disease, understanding and treatment of inherited disorders, tracing human migration patterns.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          },
+          {
+            "id": "4.6.1.4",
+            "title": "Genetic inheritance",
+            "foundation_content": [
+              {
+                "id": "bio.genetics.terms",
+                "content": "Explain terms: gamete, chromosome, gene, allele, dominant, recessive, homozygous, heterozygous, genotype, phenotype.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.genetics.singlegene",
+                "content": "Some characteristics controlled by single gene: fur colour in mice, red-green colour blindness in humans. Each gene may have different forms called alleles.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.genetics.dominance",
+                "content": "A dominant allele is always expressed even if only one copy present. A recessive allele only expressed if two copies present (no dominant allele).",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.genetics.homozygous.heterozygous",
+                "content": "If two alleles are the same, organism is homozygous. If alleles are different, they are heterozygous.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.genetics.multigene",
+                "content": "Most characteristics are result of multiple genes interacting, rather than single gene.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.genetics.punnettsquare",
+                "content": "Complete a Punnett square diagram and extract information from genetic crosses and family trees.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": [
+              {
+                "id": "bio.genetics.construct.cross",
+                "content": "Construct a genetic cross by Punnett square diagram and use it to make predictions using theory of probability.",
+                "tier": "higher"
+              }
+            ]
+          },
+          {
+            "id": "4.6.1.5",
+            "title": "Inherited disorders",
+            "foundation_content": [
+              {
+                "id": "bio.disorder.polydactyly",
+                "content": "Polydactyly (having extra fingers or toes) is caused by a dominant allele.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.disorder.cysticfibrosis",
+                "content": "Cystic fibrosis (a disorder of cell membranes) is caused by a recessive allele.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          },
+          {
+            "id": "4.6.1.6",
+            "title": "Sex determination",
+            "foundation_content": [
+              {
+                "id": "bio.sex.chromosomes",
+                "content": "Ordinary human body cells contain 23 pairs of chromosomes. 22 pairs control characteristics only, but one pair carries genes that determine sex.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.sex.female.male",
+                "content": "In females sex chromosomes are the same (XX). In males chromosomes are different (XY).",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.sex.inheritance",
+                "content": "Carry out a genetic cross to show sex inheritance.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          },
+          {
+            "id": "4.6.2.1",
+            "title": "Variation",
+            "foundation_content": [
+              {
+                "id": "bio.variation.definition",
+                "content": "Differences in characteristics of individuals in a population is called variation and may be due to: genes inherited (genetic), conditions developed in (environmental), or combination of genes and environment.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.variation.genetic",
+                "content": "There is usually extensive genetic variation within a population of a species.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.mutation.effects",
+                "content": "All variants arise from mutations. Most have no effect on phenotype; some influence phenotype; very few determine phenotype.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.mutation.rare",
+                "content": "Mutations occur continuously. Very rarely a mutation will lead to new phenotype. If suited to environmental change it can lead to relatively rapid change in species.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          },
+          {
+            "id": "4.6.2.2",
+            "title": "Evolution",
+            "foundation_content": [
+              {
+                "id": "bio.evolution.definition",
+                "content": "Evolution is a change in inherited characteristics of a population over time through natural selection which may result in formation of new species.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.evolution.naturalselection",
+                "content": "Theory of evolution by natural selection states all species evolved from simple life forms that developed over three billion years ago.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.evolution.mechanism",
+                "content": "Explain how evolution occurs through natural selection of variants that give rise to phenotypes best suited to their environment.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.speciation",
+                "content": "If two populations of one species become so different they can no longer interbreed to produce fertile offspring, they have formed two new species.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          },
+          {
+            "id": "4.6.2.3",
+            "title": "Selective breeding",
+            "foundation_content": [
+              {
+                "id": "bio.selectivebreeding.definition",
+                "content": "Selective breeding (artificial selection) is the process by which humans breed plants and animals for particular genetic characteristics.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.selectivebreeding.process",
+                "content": "Selective breeding involves: choosing parents with desired characteristic, breeding them together, breeding offspring with desired characteristic together. Continue over many generations until all offspring show desired characteristic.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.selectivebreeding.examples",
+                "content": "Examples: disease resistance in food crops, animals producing more meat/milk, domestic dogs with gentle nature, large/unusual flowers.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.selectivebreeding.inbreeding",
+                "content": "Selective breeding can lead to 'inbreeding' where some breeds are particularly prone to disease or inherited defects.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          },
+          {
+            "id": "4.6.2.4",
+            "title": "Genetic engineering",
+            "foundation_content": [
+              {
+                "id": "bio.geneticengineering.definition",
+                "content": "Genetic engineering is a process which involves modifying genome of organism by introducing a gene from another organism to give desired characteristic.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.geneticengineering.crops",
+                "content": "Plant crops have been genetically engineered to be resistant to diseases or produce bigger better fruits.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.geneticengineering.bacteria",
+                "content": "Bacterial cells have been genetically engineered to produce useful substances such as human insulin to treat diabetes.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.gm.concerns",
+                "content": "Concerns about GM crops: effect on wild flower and insect populations. Effects of eating GM crops on human health not fully explored.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": [
+              {
+                "id": "bio.geneticengineering.steps",
+                "content": "Main steps in genetic engineering: enzymes isolate required gene; gene inserted into vector (bacterial plasmid or virus); vector inserts gene into required cells; genes transferred to cells at early stage so they develop with desired characteristics.",
+                "tier": "higher"
+              }
+            ]
+          },
+          {
+            "id": "4.6.3.1",
+            "title": "Evidence for evolution",
+            "foundation_content": [
+              {
+                "id": "bio.evolution.evidence",
+                "content": "Evidence for evolution includes fossils and antibiotic resistance in bacteria.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.evolution.theory.acceptance",
+                "content": "Theory of evolution by natural selection is now widely accepted. Evidence includes: characteristics passed in genes, fossil record, and antibiotic resistance evolution in bacteria.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          },
+          {
+            "id": "4.6.3.2",
+            "title": "Fossils",
+            "foundation_content": [
+              {
+                "id": "bio.fossil.definition",
+                "content": "Fossils are 'remains' of organisms from millions of years ago, found in rocks.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.fossil.formation",
+                "content": "Fossils may be formed: from parts that have not decayed (conditions for decay absent), when parts replaced by minerals as they decay, as preserved traces (footprints, burrows).",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.fossil.incomplete",
+                "content": "Many early life forms were soft-bodied, leaving few traces. Traces mainly destroyed by geological activity. This is why scientists cannot be certain about how life began.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.fossil.learning",
+                "content": "From fossils we can learn how much or little different organisms have changed as life developed on Earth.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          },
+          {
+            "id": "4.6.3.3",
+            "title": "Extinction",
+            "foundation_content": [
+              {
+                "id": "bio.extinction.definition",
+                "content": "Extinctions occur when there are no remaining individuals of a species still alive.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.extinction.factors",
+                "content": "Describe factors which may contribute to extinction of a species.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          },
+          {
+            "id": "4.6.3.4",
+            "title": "Resistant bacteria",
+            "foundation_content": [
+              {
+                "id": "bio.bacteria.evolution",
+                "content": "Bacteria can evolve rapidly because they reproduce at a fast rate.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.bacteria.resistance.development",
+                "content": "Mutations of bacterial pathogens produce new strains. Some might be resistant to antibiotics and are not killed. They survive and reproduce, so resistant strain population rises and spreads.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.mrsa",
+                "content": "MRSA is resistant to antibiotics.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.bacteria.resistance.reduce",
+                "content": "To reduce antibiotic resistant strains: doctors shouldn't prescribe inappropriately, patients should complete antibiotic course, agricultural antibiotic use should be restricted.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.antibiotic.development",
+                "content": "Development of new antibiotics is costly and slow. Unlikely to keep up with emergence of new resistant strains.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          },
+          {
+            "id": "4.6.4",
+            "title": "Classification of living organisms",
+            "foundation_content": [
+              {
+                "id": "bio.classification.linnaeus",
+                "content": "Traditionally living things classified into groups by Carl Linnaeus based on structure and characteristics.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.classification.levels",
+                "content": "Linnaeus classified into: kingdom, phylum, class, order, family, genus and species. Organisms named by binomial system of genus and species.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.classification.developments",
+                "content": "As evidence of internal structures developed (improved microscopes) and understanding of biochemical processes progressed, new models of classification were proposed.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.classification.threedomain",
+                "content": "Three-domain system developed by Carl Woese divides organisms into: Archaea (primitive bacteria in extreme environments), Bacteria (true bacteria), and Eukaryota (protists, fungi, plants, animals).",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.classification.evolutionarytrees",
+                "content": "Evolutionary trees show how scientists believe organisms are related. They use current classification data for living organisms and fossil data for extinct organisms.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          }
+        ]
+      },
+      {
+        "section": "4.7",
+        "title": "Ecology",
+        "subsections": [
+          {
+            "id": "4.7.1.1",
+            "title": "Communities",
+            "foundation_content": [
+              {
+                "id": "bio.ecosystem.definition",
+                "content": "An ecosystem is the interaction of a community of living organisms (biotic) with non-living (abiotic) parts of their environment.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.community.competition",
+                "content": "Plants compete for light, space, water and mineral ions from soil. Animals compete for food, mates and territory.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.community.interdependence",
+                "content": "Within a community each species depends on others for food, shelter, pollination, seed dispersal. If one species removed it affects whole community (interdependence).",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.community.stable",
+                "content": "A stable community is one where all species and environmental factors are in balance so population sizes remain fairly constant.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          },
+          {
+            "id": "4.7.1.2",
+            "title": "Abiotic factors",
+            "foundation_content": [
+              {
+                "id": "bio.abiotic.factors",
+                "content": "Abiotic (non-living) factors which can affect a community: light intensity, temperature, moisture levels, soil pH and mineral content, wind intensity and direction, carbon dioxide levels for plants, oxygen levels for aquatic animals.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          },
+          {
+            "id": "4.7.1.3",
+            "title": "Biotic factors",
+            "foundation_content": [
+              {
+                "id": "bio.biotic.factors",
+                "content": "Biotic (living) factors which can affect a community: availability of food, new predators arriving, new pathogens, one species outcompeting another so numbers no longer sufficient to breed.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          },
+          {
+            "id": "4.7.1.4",
+            "title": "Adaptations",
+            "foundation_content": [
+              {
+                "id": "bio.adaptation.definition",
+                "content": "Organisms have features (adaptations) that enable them to survive in conditions where they normally live. Adaptations may be structural, behavioural or functional.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.extremophile.definition",
+                "content": "Some organisms live in very extreme environments (high temperature, pressure, or salt concentration). These are called extremophiles. Example: bacteria in deep sea vents.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          },
+          {
+            "id": "4.7.2.1",
+            "title": "Levels of organisation",
+            "foundation_content": [
+              {
+                "id": "bio.producer.definition",
+                "content": "Photosynthetic organisms are the producers of biomass for life on Earth.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.foodchain.structure",
+                "content": "Feeding relationships can be represented by food chains. All food chains begin with a producer (usually green plant or alga) which makes glucose by photosynthesis.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.foodchain.consumers",
+                "content": "Producers are eaten by primary consumers, which may be eaten by secondary consumers and then tertiary consumers.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.predatorprey",
+                "content": "Consumers that kill and eat other animals are predators; those eaten are prey. In stable community numbers of predators and prey rise and fall in cycles.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          },
+          {
+            "id": "4.7.2.2",
+            "title": "How materials are cycled",
+            "foundation_content": [
+              {
+                "id": "bio.cycling.importance",
+                "content": "Many different materials cycle through abiotic and biotic components of an ecosystem. Carbon and water cycles are important to living organisms.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.carboncycle",
+                "content": "The carbon cycle returns carbon from organisms to atmosphere as carbon dioxide to be used by plants in photosynthesis.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.watercycle",
+                "content": "The water cycle provides fresh water for plants and animals on land before draining into seas. Water is continuously evaporated and precipitated.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.microorganisms.role",
+                "content": "Microorganisms cycle materials through ecosystem by returning carbon to atmosphere as carbon dioxide and mineral ions to soil.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          },
+          {
+            "id": "4.7.3.1",
+            "title": "Biodiversity",
+            "foundation_content": [
+              {
+                "id": "bio.biodiversity.definition",
+                "content": "Biodiversity is the variety of all different species of organisms on earth, or within an ecosystem.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.biodiversity.importance",
+                "content": "Great biodiversity ensures stability of ecosystems by reducing dependence of one species on another for food, shelter and maintenance of physical environment.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.biodiversity.human",
+                "content": "The future of human species relies on us maintaining good level of biodiversity. Many human activities are reducing biodiversity.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          },
+          {
+            "id": "4.7.3.2",
+            "title": "Waste management",
+            "foundation_content": [
+              {
+                "id": "bio.pollution.causes",
+                "content": "Rapid human population growth and increased standard of living mean more resources used and more waste produced. Unless properly handled, more pollution is caused.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.pollution.types",
+                "content": "Pollution can occur: in water (from sewage, fertiliser, toxic chemicals), in air (from smoke and acidic gases), on land (from landfill and toxic chemicals).",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.pollution.effects",
+                "content": "Pollution kills plants and animals which can reduce biodiversity.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          },
+          {
+            "id": "4.7.3.3",
+            "title": "Land use",
+            "foundation_content": [
+              {
+                "id": "bio.landuse.human",
+                "content": "Humans reduce land available for other animals and plants by building, quarrying, farming and dumping waste.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.peat.destruction",
+                "content": "Destruction of peat bogs to produce garden compost reduces habitat area and variety of species (biodiversity). Decay or burning of peat releases carbon dioxide.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          },
+          {
+            "id": "4.7.3.4",
+            "title": "Deforestation",
+            "foundation_content": [
+              {
+                "id": "bio.deforestation.causes",
+                "content": "Large-scale deforestation in tropical areas has occurred to: provide land for cattle and rice fields, and grow crops for biofuels.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          },
+          {
+            "id": "4.7.3.5",
+            "title": "Global warming",
+            "foundation_content": [
+              {
+                "id": "bio.globalwarming.causes",
+                "content": "Levels of carbon dioxide and methane in atmosphere are increasing, and contribute to 'global warming'.",
+                "tier": "foundation"
+              },
+              {
+                "id": "bio.globalwarming.consequences",
+                "content": "Describe some biological consequences of global warming.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          },
+          {
+            "id": "4.7.3.6",
+            "title": "Maintaining biodiversity",
+            "foundation_content": [
+              {
+                "id": "bio.biodiversity.programmes",
+                "content": "Programmes to reduce negative effects of humans on ecosystems: breeding programmes for endangered species, protection and regeneration of rare habitats, reintroduction of field margins and hedgerows, reduction of deforestation and CO2 emissions, recycling resources rather than landfill.",
+                "tier": "foundation"
+              }
+            ],
+            "higher_content": []
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_foundation_concepts": "Content that forms the foundation for all students",
+      "total_higher_concepts": "Additional content only assessed for Higher Tier",
+      "key_principle": "ALL Foundation content is also required for Higher Tier students. Higher Tier content is ADDITIONAL and builds upon Foundation knowledge.",
+      "ht_only_topics": [
+        "4.4.1.2 - Rate of photosynthesis (limiting factors, inverse square law, greenhouse economics)",
+        "4.4.2.2 - Response to exercise (oxygen debt explanation)",
+        "4.5.3.2 - Control of blood glucose (glucagon and negative feedback)",
+        "4.5.3.3 - Hormones in human reproduction (interactions of FSH, oestrogen, LH, progesterone)",
+        "4.5.3.5 - The use of hormones to treat infertility (entire section)",
+        "4.5.3.6 - Feedback systems (adrenaline and thyroxine - entire section)",
+        "4.6.1.4 - Genetic inheritance (constructing genetic crosses)",
+        "4.6.2.4 - Genetic engineering (main steps in process)"
+      ]
+    }
+  }
+  

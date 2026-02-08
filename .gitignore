@@ -1,0 +1,25 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Environment variables (API keys)
+.env
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Ignore all lesson videos
+Lesson Resources/**/*.mov
+
+
+*.mov

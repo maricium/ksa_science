@@ -1,0 +1,77 @@
+[project]
+name = "education"
+version = "0.1.0"
+description = "Unified education project combining all subprojects"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "anthropic>=0.69.0",
+    "beautifulsoup4>=4.14.0",
+    "bs4>=0.0.2",
+    "google-api-python-client>=2.182.0",
+    "openai>=2.0.1",
+    "openpyxl>=3.1.5",
+    "pandas>=2.3.3",
+    "rapidfuzz>=3.0.0",
+    "rich>=13.0.0",
+    "pdf2docx>=0.5.8",
+    "pillow>=11.3.0",
+    "pymupdf>=1.26.4",
+    "pypdf2>=3.0.1",
+    "python-docx>=1.2.0",
+    "python-dotenv>=1.0.0",
+    "python-pptx>=1.0.2",
+    "requests>=2.32.5",
+    "ruff>=0.1.0",
+    "selenium>=4.35.0",
+    "streamlit>=1.28.0",
+]
+
+[tool.ruff]
+# Set maximum line length
+line-length = 120
+
+# Exclude common directories
+exclude = [
+    ".git",
+    ".venv",
+    "__pycache__",
+    "node_modules",
+    "build",
+    "dist",
+    "*.egg-info",
+]
+
+[tool.ruff.lint]
+# Enable common rule sets
+select = [
+    "E",   # pycodestyle errors
+    "W",   # pycodestyle warnings
+    "F",   # pyflakes
+    "I",   # isort (import sorting)
+    "N",   # pep8-naming
+    "UP",  # pyupgrade
+    "B",   # flake8-bugbear
+    "C4",  # flake8-comprehensions
+    "SIM", # flake8-simplify
+]
+
+ignore = [
+    "E501",  # Line too long (let formatter handle this)
+    "B008",  # Do not perform function calls in argument defaults
+    "E722",  # Do not use bare except (we have some intentional bare excepts)
+    "E402",  # Module level import not at top (intentional due to sys.path manipulation)
+    "N806",  # Variable in function should be lowercase (constants are intentionally uppercase)
+]
+
+[tool.ruff.lint.isort]
+# Import sorting configuration
+known-first-party = ["readers", "readnow", "read_excel"]
+
+[tool.ruff.format]
+# Enable auto-formatting
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false
+line-ending = "auto"
+

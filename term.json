@@ -1,0 +1,37 @@
+{
+  "2025-26": {
+    "Autumn Term": {
+      "start": "2025-09-01",
+      "end": "2025-12-19",
+      "half_terms": [
+        {"name": "HT1", "start": "2025-09-01", "end": "2025-10-17"},
+        {"name": "HT2", "start": "2025-10-27", "end": "2025-12-19"}
+      ],
+      "holidays": [
+        {"name": "Autumn Half-term Break", "start": "2025-10-20", "end": "2025-10-24"}
+      ]
+    },
+    "Spring Term": {
+      "start": "2026-01-06",
+      "end": "2026-03-27",
+      "half_terms": [
+        {"name": "HT3", "start": "2026-01-06", "end": "2026-02-13"},
+        {"name": "HT4", "start": "2026-02-23", "end": "2026-03-27"}
+      ],
+      "holidays": [
+        {"name": "Spring Half-term Break", "start": "2026-02-16", "end": "2026-02-20"}
+      ]
+    },
+    "Summer Term": {
+      "start": "2026-04-14",
+      "end": "2026-07-24",
+      "half_terms": [
+        {"name": "HT5", "start": "2026-04-14", "end": "2026-05-22"},
+        {"name": "HT6", "start": "2026-06-01", "end": "2026-07-24"}
+      ],
+      "holidays": [
+        {"name": "Summer Half-term Break", "start": "2026-05-25", "end": "2026-05-29"}
+      ]
+    }
+  }
+}

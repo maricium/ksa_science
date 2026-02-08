@@ -145,8 +145,9 @@ def read_state_questions_from_prep_booklet(
                     answer = "[state from lesson]"
                 if len(answer) > MAX_STATE_ANSWER_CHARS:
                     answer = answer[:MAX_STATE_ANSWER_CHARS]
-                # Critical teacher check: does the answer actually match the question? (e.g. not "RTP" when question asks what RTP stands for)
+                # Critical teacher check: does the answer actually match the question?
                 answer = _validate_answer_with_ai(question, answer)
+                answer = _sanitise_answer_for_revision("", answer)  # no keyword; strip meta/robot answers or use —
                 # If answer still over limit, remove this question entirely (do not add)
                 if len(answer) > MAX_STATE_ANSWER_CHARS:
                     continue
@@ -156,27 +157,78 @@ def read_state_questions_from_prep_booklet(
 
 MAX_STATE_ANSWER_CHARS = 50
 
+# Shown in the doc when the answer is not AQA-spec or is robot/meta (literally a line across)
+INVALID_ANSWER_PLACEHOLDER = "—"
+
+
+def _is_robot_or_meta_answer(text: str) -> bool:
+    """True if the answer reads like a meta-comment or robot explanation, not a revision term."""
+    if not text or len(text) > 120:
+        return True
+    t = text.lower().strip()
+    meta_phrases = [
+        "is not a definition",
+        "is not an answer",
+        "is not the answer",
+        "does not make sense",
+        "is not a ",
+        "is not the ",
+        "this is not ",
+        "that is not ",
+        "it is not ",
+        "not a definition",
+        "not an answer",
+    ]
+    if any(p in t for p in meta_phrases):
+        return True
+    # Sentence that explains rather than states a term (ends with period, or long clause)
+    if t.endswith(".") and len(t) > 40:
+        return True
+    return False
+
+
+def _sanitise_answer_for_revision(keyword: str, answer: str) -> str:
+    """
+    Ensure the answer is a short revision-style term, not a robot/meta comment.
+    If answer is meta (e.g. 'relative atomic mass is not a definition'), use the keyword or extract the term; otherwise return answer.
+    """
+    if not answer or answer.strip() == INVALID_ANSWER_PLACEHOLDER:
+        return keyword.strip()[:MAX_STATE_ANSWER_CHARS] if keyword.strip() else INVALID_ANSWER_PLACEHOLDER
+    if _is_robot_or_meta_answer(answer):
+        # Prefer the keyword from the sheet (short revision term)
+        if keyword and not _is_robot_or_meta_answer(keyword) and len(keyword.strip()) <= MAX_STATE_ANSWER_CHARS:
+            return keyword.strip()
+        # Try to extract a short term: e.g. "relative atomic mass is not a definition" -> "relative atomic mass"
+        for sep in (" is not ", " is not a ", " is not an ", " does not ", " - "):
+            if sep in answer:
+                before = answer.split(sep)[0].strip()
+                if before and len(before) <= MAX_STATE_ANSWER_CHARS and not _is_robot_or_meta_answer(before):
+                    return before
+        return INVALID_ANSWER_PLACEHOLDER
+    return answer.strip()[:MAX_STATE_ANSWER_CHARS]
+
 
 def _validate_answer_with_ai(question: str, answer: str) -> str:
     """
-    Think like a strict teacher: does this answer actually match the question?
-    Be strict - only accept if clearly correct. E.g. if the question asks what RTP stands for,
-    the answer must not be "RTP" - it must be "room temperature and pressure".
+    Prefer the keyword-sheet answer. Only suggest a replacement for clear abbreviation expansion
+    (e.g. RTP -> room temperature and pressure). If the proposed answer is a short revision term, keep it.
+    Do not replace with sentences or non-AQA spec; if unsure, return the original or "—".
     """
     if not _client or not answer.strip():
         return answer
-    prompt = f"""You are a strict GCSE chemistry examiner. Check this recall Q&A.
+    prompt = f"""You are checking a GCSE AQA recall Q&A for a revision word list. The proposed answer comes from the keyword sheet – USE IT unless it is clearly wrong.
 
 Question: {question}
-Proposed answer: {answer}
+Proposed answer (from keyword sheet): {answer}
 
 RULES:
-- If the question asks what something STANDS FOR or MEANS (e.g. RTP, Mr), the answer must be the full meaning (e.g. "room temperature and pressure"), NOT the abbreviation.
-- The answer must be the actual fact/value, not a repeat of the question or a vague placeholder.
-- Be STRICT. When in doubt, provide the correct answer. Only reply with exactly "OK" (nothing else) if the answer is clearly, fully and correctly answering the question.
+- PREFER the proposed answer. Students need short revision terms (e.g. "relative atomic mass", "mole"), not sentences or explanations.
+- Only suggest a replacement for clear abbreviation expansion: e.g. if the question asks what RTP stands for, the answer must be "room temperature and pressure", not "RTP". Do NOT replace correct short terms with long explanations.
+- The answer must be a SHORT term or value that could appear on a revision list (one to a few words, or a value like 6.02×10²³). No full sentences. No meta-comments (e.g. "X is not a definition" is WRONG – the answer should just be "X" or the correct term).
+- If the proposed answer is a reasonable short revision term, reply with exactly: OK
+- If you suggest a replacement, it MUST be AQA GCSE spec style: a short term students revise. If the correct answer would not be a clear AQA GCSE revision term, reply with exactly: —
 
-If the answer is wrong, incomplete or does not match the question, reply with the CORRECT short answer only (max 50 characters, no explanation, no "OK").
-If the answer is correct, reply with exactly: OK"""
+Reply with exactly "OK" to keep the proposed answer, or "—" to indicate no valid answer, or the correct short answer only (max 50 characters, no explanation)."""
 
     try:
         response = _client.chat.completions.create(
@@ -190,12 +242,16 @@ If the answer is correct, reply with exactly: OK"""
             return answer
         if text.upper().strip() == "OK":
             return answer
-        # AI provided a correction
+        if text.strip() == "—" or text.strip() == "–" or text.strip() == "-":
+            return INVALID_ANSWER_PLACEHOLDER
+        # AI provided a correction – only use if it looks like a short revision term
         for prefix in ("answer:", "answer ", "ANSWER:", "ANSWER ", "correct:", "correct "):
             if text.lower().startswith(prefix):
                 text = text[len(prefix):].strip()
                 break
         if text and not text.upper().startswith("TBAT"):
+            if _is_robot_or_meta_answer(text):
+                return answer  # Keep original from keyword sheet
             return text[:MAX_STATE_ANSWER_CHARS]
     except Exception:
         pass
@@ -234,6 +290,35 @@ Give the correct short answer in AT MOST 50 characters. Only the value, symbol, 
     except Exception:
         pass
     return current_answer[:MAX_STATE_ANSWER_CHARS]
+
+
+def _state_statement_to_question(text: str) -> str:
+    """
+    Turn a 'State ...' statement into a question for the revision list.
+    e.g. 'State the Avogadro constant' -> 'What is the Avogadro constant?'
+    """
+    if not text or not text.strip():
+        return text
+    t = text.strip().rstrip("?")
+    if not re.match(r"^state\s", t, re.IGNORECASE):
+        return t if text.strip().endswith("?") else t + "?"
+    # "State the units of X" -> "What are the units of X?"
+    if re.match(r"^state\s+the\s+units\s+", t, re.IGNORECASE):
+        rest = re.sub(r"^state\s+the\s+units\s+", "", t, flags=re.IGNORECASE).strip().rstrip("?")
+        return f"What are the units of {rest}?" if rest else t
+    # "State the unit of X" -> "What is the unit of X?"
+    if re.match(r"^state\s+the\s+unit\s+", t, re.IGNORECASE):
+        rest = re.sub(r"^state\s+the\s+unit\s+", "", t, flags=re.IGNORECASE).strip().rstrip("?")
+        return f"What is the unit of {rest}?" if rest else t
+    # "State the value of X" / "State the equation for X" etc. -> "What is the ...?"
+    if re.match(r"^state\s+the\s+", t, re.IGNORECASE):
+        rest = re.sub(r"^state\s+the\s+", "", t, flags=re.IGNORECASE).strip().rstrip("?")
+        return f"What is the {rest}?" if rest else t
+    # "State X" (no "the") -> "What is X?"
+    rest = re.sub(r"^state\s+", "", t, flags=re.IGNORECASE).strip().rstrip("?")
+    if not rest:
+        return t
+    return f"What is {rest}?"
 
 
 def _is_generic_units_question(question: str) -> bool:
@@ -931,7 +1016,12 @@ def create_aqa_document(
     print("="*70 + "\n")
     
     doc = Document()
-    
+    # Ask Word to open in normal mode, not Compatibility Mode (avoids "Do you want to save changes?" on close)
+    try:
+        doc.part.element.set(qn("w:conformance"), "strict")
+    except Exception:
+        pass
+
     # Set margins
     for section in doc.sections:
         section.top_margin = section.bottom_margin = Inches(1.0)
@@ -1001,11 +1091,12 @@ def create_aqa_document(
             shading.set(qn('w:fill'), 'D5E8F0')
             hdr[i]._element.get_or_add_tcPr().append(shading)
         
-        # Add FOUNDATION words (no highlighting); validate each answer matches the question
+        # Add FOUNDATION words (no highlighting); validate then sanitise so answers stay as revision terms
         for keyword in foundation_words:
             row = table.add_row().cells
             question = (question_bank or {}).get(normalize_kw(keyword)) or create_aqa_question(keyword)
             answer = _validate_answer_with_ai(question, keyword)
+            answer = _sanitise_answer_for_revision(keyword, answer)
             if len(answer) > MAX_STATE_ANSWER_CHARS:
                 answer = answer[:MAX_STATE_ANSWER_CHARS]
 
@@ -1024,11 +1115,12 @@ def create_aqa_document(
             run.font.size = Pt(10)
             run.font.bold = True
         
-        # Add EXTENSION words (with yellow highlighting); validate each answer matches the question
+        # Add EXTENSION words (with yellow highlighting); validate then sanitise so answers stay as revision terms
         for keyword in extension_words:
             row = table.add_row().cells
             question = (question_bank or {}).get(normalize_kw(keyword)) or create_aqa_question(keyword)
             answer = _validate_answer_with_ai(question, keyword)
+            answer = _sanitise_answer_for_revision(keyword, answer)
             if len(answer) > MAX_STATE_ANSWER_CHARS:
                 answer = answer[:MAX_STATE_ANSWER_CHARS]
 
@@ -1069,7 +1161,7 @@ def create_aqa_document(
                 row = table.add_row().cells
                 p_q = row[0].paragraphs[0]
                 p_q.clear()
-                run = p_q.add_run(q_text)
+                run = p_q.add_run(_state_statement_to_question(q_text))
                 run.font.name = 'Arial'
                 run.font.size = Pt(10)
                 p_a = row[1].paragraphs[0]
@@ -1277,7 +1369,6 @@ def run_daily_review_generator_multi(
         state_questions_by_lesson=state_by_lesson,
     )
     return (output_file, None)
-
 
 def list_available_units(lesson_resources_root: str | Path) -> list[str]:
     """Return list of unit codes (e.g. ['C4.2', 'C4.3']) from Lesson Resources folders."""
