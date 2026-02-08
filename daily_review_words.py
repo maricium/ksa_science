@@ -222,13 +222,14 @@ Question: {question}
 Proposed answer (from keyword sheet): {answer}
 
 RULES:
-- PREFER the proposed answer. Students need short revision terms (e.g. "relative atomic mass", "mole"), not sentences or explanations.
-- Only suggest a replacement for clear abbreviation expansion: e.g. if the question asks what RTP stands for, the answer must be "room temperature and pressure", not "RTP". Do NOT replace correct short terms with long explanations.
-- The answer must be a SHORT term or value that could appear on a revision list (one to a few words, or a value like 6.02×10²³). No full sentences. No meta-comments (e.g. "X is not a definition" is WRONG – the answer should just be "X" or the correct term).
+- Answers must be MINI WHITEBOARD style: a word or two, an equation, or a formula. Examples: "density", "length × width × height", "6.02×10²³", "room temperature and pressure". NOT partial sentences or definitions (e.g. "The physical form in which a substance is in: solid" is WRONG – use "solid" or "state of matter").
+- PREFER the proposed answer if it is already short (1–4 words or an equation).
+- Only suggest a replacement for clear abbreviation expansion (e.g. RTP → "room temperature and pressure"). Do NOT suggest definitions or sentences.
 - If the proposed answer is a reasonable short revision term, reply with exactly: OK
-- If you suggest a replacement, it MUST be AQA GCSE spec style: a short term students revise. If the correct answer would not be a clear AQA GCSE revision term, reply with exactly: —
+- If you suggest a replacement, it MUST be 1–4 words, an equation, or a formula. If the correct answer would be a long sentence, reply with exactly: —
 
-Reply with exactly "OK" to keep the proposed answer, or "—" to indicate no valid answer, or the correct short answer only (max 50 characters, no explanation)."""
+If the answer is wrong, incomplete or does not match the question, reply with the CORRECT short answer only (max 50 characters, no explanation, no "OK").
+If the answer is correct, reply with exactly: OK"""
 
     try:
         response = _client.chat.completions.create(
@@ -251,7 +252,7 @@ Reply with exactly "OK" to keep the proposed answer, or "—" to indicate no val
                 break
         if text and not text.upper().startswith("TBAT"):
             if _is_robot_or_meta_answer(text):
-                return answer  # Keep original from keyword sheet
+                return answer
             return text[:MAX_STATE_ANSWER_CHARS]
     except Exception:
         pass
